@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name bachelorproef-morse-rescue)(type Legacy)(uri "${KIPRJMOD}/bachelorproef morse-rescue.lib")(options "")(descr ""))
+  (lib (name _autosave-bachelorproef-morse-rescue)(type Legacy)(uri "${KIPRJMOD}/_autosave-bachelorproef morse-rescue.lib")(options "")(descr ""))
+)

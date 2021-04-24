@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 105017-1001-micro_usb
+#
+DEF 105017-1001-micro_usb J 0 40 Y Y 1 L N
+F0 "J" -200 400 50 H V L BNN
+F1 "105017-1001-micro_usb" -200 -400 50 H V L BNN
+F2 "MOLEX_105017-1001" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN "Package"
+F5 "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle" 0 0 50 H I L BNN "Description"
+F6 "https://pricing.snapeda.com/search/part/105017-1001/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+F7 "105017-1001" 0 0 50 H I L BNN "MP"
+F8 "Warning" 0 0 50 H I L BNN "Availability"
+F9 "Molex" 0 0 50 H I L BNN "MF"
+F10 "None" 0 0 50 H I L BNN "Price"
+DRAW
+S -200 -400 200 400 0 0 10 f
+X 1 1 400 300 200 L 40 40 0 0 P
+X 2 2 400 200 200 L 40 40 0 0 P
+X 3 3 400 100 200 L 40 40 0 0 P
+X 4 4 400 0 200 L 40 40 0 0 P
+X 5 5 400 -100 200 L 40 40 0 0 P
+X SHIELD S1 400 -300 200 L 40 40 0 0 P
+X SHIELD S2 400 -300 200 L 40 40 0 0 P
+X SHIELD S3 400 -300 200 L 40 40 0 0 P
+X SHIELD S4 400 -300 200 L 40 40 0 0 P
+X SHIELD S5 400 -300 200 L 40 40 0 0 P
+X SHIELD S6 400 -300 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 434111043826-schakelaars
+#
+DEF 434111043826-schakelaars S 0 40 Y N 1 L N
+F0 "S" -25 90 50 H V L BNN
+F1 "434111043826-schakelaars" -200 -120 50 H V L BNN
+F2 "434111043826" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Warning" 0 0 50 H I L BNN "Availability"
+F5 "Tactile Switch SPST-NO Top Actuated Surface Mount" 0 0 50 H I L BNN "Description"
+F6 "Wurth Electronics" 0 0 50 H I L BNN "MF"
+F7 "None" 0 0 50 H I L BNN "Package"
+F8 "None" 0 0 50 H I L BNN "Price"
+F9 "434111043826" 0 0 50 H I L BNN "MP"
+F10 "https://pricing.snapeda.com/search/part/434111043826/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+DRAW
+C -50 0 20 0 0 10 N
+C 50 0 20 0 0 10 N
+P 2 0 0 10 -100 0 -71 0 N
+P 2 0 0 10 -58 19 53 41 N
+P 2 0 0 10 71 0 100 0 N
+X ~ 1 -200 0 100 R 40 40 0 0 P
+X ~ 2 200 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
